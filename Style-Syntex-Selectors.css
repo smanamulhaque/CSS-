@@ -1,0 +1,64 @@
+p{
+    color: rgb(26, 26, 41);
+    font-size: 50px;
+}
+h1{
+    color: brown;
+    font-size: 30px;
+}
+.myClass{
+    color: red;
+    font-size: 10px;
+}
+#myId{
+    color: blueviolet;
+    font-size: 10;
+}
+/* For Extra Space Remove, that,s called Universal Selector  */
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  Group selector  */
+h2, h3, h4{
+color:rebeccapurple;
+font-size: 50px;
+}
+
+/* Chaild selector */
+div>section>h2{
+    color: red;
+    font-size: 50px;
+}
+
+/* Disendent Selector and Chaild selector workin process same  */ 
+div section h2{
+    color: red;
+    font-size: 50px;
+}
+/* p psudo selector */
+.Btn{
+    
+     background-color:blueviolet;
+     color: chartreuse;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: none;
+     cursor: pointer;
+     width: 7%;
+
+}
+/* hover use for cursor going the pad then pad and colour can change */
+.Btn:hover{
+    background-color: brown;
+    padding: 24px 30px;
+}
+/* 1st element and last element capture */
+.amyClass h2:first-child{
+    color: red;
+}
+.amyClass h2:last-child{
+    color: red;
+}
+
+

@@ -1,0 +1,24 @@
+/* Background image */
+/* body{
+ background-image: url(assets/image.png);
+background-repeat: no-repeat;
+background-size: cover; 
+} */
+
+
+/* Gradint = 2 or more color doing add */
+/* body{
+background: linear-gradient( to right, red,green); 
+background: linear-gradient( to left, red,green);
+background: radial-gradient(circle ,green ,red );
+} */
+
+
+/* Position */
+body{
+background-image: url(assets/image.png);
+background-repeat: no-repeat;/*repeat-x , repeat-y*/
+/* background-size: cover; */
+background-position:center center ;/* center left ,top right ,top left , bottom right */
+height: 100vh;
+}

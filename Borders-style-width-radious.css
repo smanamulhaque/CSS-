@@ -1,0 +1,22 @@
+/*   */
+.box{
+     border: 10px outset red;/*solid,dotted,deshed,double,groove,ridge,inset,outset*/
+
+}
+button{
+    border: none;
+}
+/* Single command */
+.Anamul{
+    border-style:solid ;
+    /* up right left down */
+    border-width: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(127, 255, 168);
+    border-radius: 50%;
+    border: 5px solid rgb(100, 20, 10);
+}

@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* RGB (Red , Green & Blue */
+h2{
+    color:rgb(255,0,0) ;
+    background-color: rgb(0, 255, 0);
+
+}
+/* #ff0000 ( first 2 is Red , next 2 is Green ,next 2 is Blue */
+h3{
+    color: #ff0000;
+    background-color: #00ff00;
+}
+/* 0=red ,120=green ,240=blue */
+h4{
+    color: hsl(0, 100%, 50%);
+    background-color: hsl(120, 100%, 50%);
+}
