@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Use Font Family */
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Use Font Size */
+p{
+font-size: 10px;
+}
+ /* Use Font Weight  */
+p{
+    font-weight: lighter;
+}
+
+/* Use Font Style (Normal,italic,oblige)*/
+p{
+    font-style: italic;
+}
