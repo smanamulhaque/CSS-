@@ -1,0 +1,59 @@
+*{
+    margin: 10;
+    padding: 0;
+}
+/*------------------
+ body{
+    height: 100vh;
+}
+
+.root{
+display:flex;
+gap: 20px;
+justify-content: space-evenly;
+align-items:center;
+height: 100%;
+}
+
+.child-1{
+    width: 150px;
+    height: 75px;
+    background-color:red;
+}
+
+.child-2{
+    width: 150px;
+    height: 75px;
+    background-color:blue;
+}
+
+
+.child-3{
+    width: 150px;
+    height: 75px;
+    background-color:aquamarine;
+} */
+ /* -----------------
+ .root{
+    width: 400px;
+    height: 200px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ } */
+
+ /* gird layout */
+ .container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    background-color: aqua;
+ }
+
+ .grid-item{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+ }
